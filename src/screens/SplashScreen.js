@@ -5,7 +5,7 @@ const SplashScreen = () => {
   return (
     <View style={styles.container}>
       <Image
-        source={require('./path_to_your_splash_image/splash_image.png')}
+        source={require('herobg1')}
         style={styles.image}
         resizeMode="cover"
       />
